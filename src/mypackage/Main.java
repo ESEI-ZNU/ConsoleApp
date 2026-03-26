@@ -13,6 +13,14 @@ public class Main {
      * @param args Command-line arguments passed to the application.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+//        System.out.println("Hello World!");
+        newMethod();
+    }
+
+    /**
+     * Demonstrates a new method that can be called from the main method.
+     */
+    private static void newMethod() {
+        System.out.println("New method called!");
     }
 }
