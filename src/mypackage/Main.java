@@ -15,6 +15,9 @@ public class Main {
     public static void main(String[] args) {
 //        System.out.println("Hello World!");
         newMethod();
+
+        SomeClass someObject = new SomeClass("Example Name");
+        System.out.println("Name from SomeClass: " + someObject.getName());
     }
 
     /**
