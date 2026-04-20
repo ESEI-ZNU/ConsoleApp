@@ -13,7 +13,7 @@ public class Main {
      * @param args Command-line arguments passed to the application.
      */
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
+        System.out.println("Hello World!");
         newMethod();
 
         SomeClass someObject = new SomeClass("Example Name");
