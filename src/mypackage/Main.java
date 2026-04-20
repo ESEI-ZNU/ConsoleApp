@@ -18,6 +18,9 @@ public class Main {
 
         SomeClass someObject = new SomeClass("Example Name");
         System.out.println("Name from SomeClass: " + someObject.getName());
+
+        AnotherClass anotherObject = new AnotherClass();
+        anotherObject.displayMessage();
     }
 
     /**
