@@ -26,5 +26,6 @@ public class Main {
     private static void newMethod() {
         System.out.println("New method called!");
         System.out.println("This was added by Developer 1.");
+        System.out.println("This was added by Developer 2.");
     }
 }
